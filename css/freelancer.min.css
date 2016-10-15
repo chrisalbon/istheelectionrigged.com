@@ -274,16 +274,6 @@ section.success {
     }
 }
 
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-
-.navbar .navbar-collapse {
-  text-align: center;
-}
-
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
@@ -523,4 +513,14 @@ footer .footer-below {
 .col-centered {
     float: none;
     margin: 0 auto;
+}
+
+.navbar .navbar-brand {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
