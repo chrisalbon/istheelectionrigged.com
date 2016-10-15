@@ -24,6 +24,7 @@ a, a.active, a:active, a:focus, a:hover {
 
 .skills a {
     text-decoration: underline;
+    color: #555;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -61,22 +62,28 @@ hr.star-light {
 }
 
 hr.star-light:after {
-    background-color: #18BC9C;
-    color: #fff
+    background-color: #ffffff;
+    color: #555
 }
 
 hr.star-primary {
-    border-color: #2C3E50
+    border-color: #2a7ab9
 }
 
 hr.star-primary:after {
     background-color: #fff;
-    color: #2C3E50
+    color: #2a7ab9
 }
 
 .navbar-custom .navbar-brand, .navbar-custom .navbar-brand.active, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-nav li a, header {
     color: #fff
 }
+
+.skills, .name, .skills a {
+    color: #555
+}
+
+.name
 
 .img-centered {
     margin: 0 auto
@@ -84,7 +91,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    background: #18BC9C
+    background: #ffffff
 }
 
 header .container {
@@ -122,7 +129,7 @@ header .intro-text .skills {
 }
 
 .navbar-custom {
-    background: #2C3E50;
+    background: #2a7ab9;
     font-weight: 700;
     border: none
 }
@@ -136,7 +143,7 @@ header .intro-text .skills {
 }
 
 .navbar-custom .navbar-nav li a:hover {
-    color: #18BC9C;
+    color: #ffffff;
     outline: 0
 }
 
@@ -146,7 +153,7 @@ header .intro-text .skills {
 
 .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
     color: #fff;
-    background: #18BC9C
+    background: #ffffff
 }
 
 .navbar-custom .navbar-toggle {
@@ -157,9 +164,9 @@ header .intro-text .skills {
 }
 
 .navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
-    background-color: #18BC9C;
+    background-color: #ffffff;
     color: #fff;
-    border-color: #18BC9C
+    border-color: #ffffff
 }
 
 @media (min-width:768px) {
@@ -193,8 +200,8 @@ section h2 {
 }
 
 section.success {
-    background: #18BC9C;
-    color: #fff
+    background: #ffffff;
+    color: #555
 }
 
 @media (max-width:767px) {
@@ -241,7 +248,7 @@ section.success {
     text-align: center;
     top: 50%;
     margin-top: -12px;
-    color: #fff
+    color: #555
 }
 
 .btn-social, .scroll-top, .scroll-top .btn {
@@ -265,6 +272,16 @@ section.success {
     #portfolio .portfolio-item {
         margin: 0 0 30px
     }
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
 
 .floating-label-form-group {
@@ -315,7 +332,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18BC9C
+    color: #555
 }
 
 form .row:first-child .floating-label-form-group {
@@ -332,7 +349,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #2C3E50
+    background-color: #2a7ab9
 }
 
 footer .footer-col {
@@ -341,7 +358,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140
+    background-color: #d93132
 }
 
 .btn-outline {
@@ -354,7 +371,7 @@ footer .footer-below {
 }
 
 .btn-outline.active, .btn-outline:active, .btn-outline:focus, .btn-outline:hover {
-    color: #18BC9C;
+    color: #ffffff;
     background: #fff;
     border: 2px solid #fff
 }
@@ -365,8 +382,8 @@ footer .footer-below {
 
 .btn-primary {
     color: #fff;
-    background-color: #2C3E50;
-    border-color: #2C3E50;
+    background-color: #2a7ab9;
+    border-color: #2a7ab9;
     font-weight: 700
 }
 
@@ -377,19 +394,19 @@ footer .footer-below {
 }
 
 .btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
-    background-color: #2C3E50;
-    border-color: #2C3E50
+    background-color: #2a7ab9;
+    border-color: #2a7ab9
 }
 
 .btn-primary .badge {
-    color: #2C3E50;
+    color: #2a7ab9;
     background-color: #fff
 }
 
 .btn-success {
     color: #fff;
-    background-color: #18BC9C;
-    border-color: #18BC9C;
+    background-color: #ffffff;
+    border-color: #ffffff;
     font-weight: 700
 }
 
@@ -400,12 +417,12 @@ footer .footer-below {
 }
 
 .btn-success.disabled, .btn-success.disabled.active, .btn-success.disabled:active, .btn-success.disabled:focus, .btn-success.disabled:hover, .btn-success[disabled], .btn-success[disabled].active, .btn-success[disabled]:active, .btn-success[disabled]:focus, .btn-success[disabled]:hover, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success.active, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:hover {
-    background-color: #18BC9C;
-    border-color: #18BC9C
+    background-color: #ffffff;
+    border-color: #ffffff
 }
 
 .btn-success .badge {
-    color: #18BC9C;
+    color: #ffffff;
     background-color: #fff
 }
 
@@ -481,7 +498,7 @@ footer .footer-below {
     height: 75px;
     width: 1px;
     margin-left: 35px;
-    background-color: #2C3E50;
+    background-color: #2a7ab9;
     transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -491,7 +508,7 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr .rl {
     height: 75px;
     width: 1px;
-    background-color: #2C3E50;
+    background-color: #2a7ab9;
     transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
