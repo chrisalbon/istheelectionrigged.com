@@ -84,8 +84,6 @@ hr.star-primary:after {
     color: #555
 }
 
-.name
-
 .img-centered {
     margin: 0 auto
 }
@@ -538,6 +536,6 @@ footer .footer-below {
 }
 
 header .intro-text .skills.demandproof  {
-    font-size: 2.3em;
+    font-size: 2.2em;
     font-weight: bold;
 }
