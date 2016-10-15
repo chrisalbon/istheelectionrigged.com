@@ -39,7 +39,8 @@ hr.star-light, hr.star-primary {
     border-top: solid 5px;
     text-align: center;
     max-width: 250px;
-    margin: 25px auto 30px
+    margin: 25px auto 30px;
+
 }
 
 hr.star-light:after, hr.star-primary:after {
@@ -48,7 +49,7 @@ hr.star-light:after, hr.star-primary:after {
     display: inline-block;
     position: relative;
     top: -.8em;
-    font-size: 2em;
+    font-size: 3em;
     padding: 0 .25em
 }
 
@@ -63,7 +64,7 @@ hr.star-light {
 
 hr.star-light:after {
     background-color: #ffffff;
-    color: #555
+    color: #d93132
 }
 
 hr.star-primary {
@@ -121,7 +122,16 @@ header .intro-text .skills {
         padding-bottom: 100px
     }
     header .intro-text .name {
-        font-size: 5.5em
+        font-size: 7em;
+        font-weight:bold;
+    }
+
+    header .intro-text .name .n{
+        color: #2a7ab9;
+    }
+
+    header .intro-text .name .o{
+        color: #d93132;
     }
     header .intro-text .skills {
         font-size: 1.75em
