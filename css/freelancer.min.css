@@ -515,12 +515,14 @@ footer .footer-below {
     margin: 0 auto;
 }
 
-.navbar .navbar-brand {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
 }
+.navbar-brand {float:none;}
 
-.navbar .navbar-collapse {
-  text-align: center;
+.evidence {
+    margin-bottom:40px;
 }
